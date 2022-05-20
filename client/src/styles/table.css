@@ -1,0 +1,94 @@
+section.table-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.table-header h1 {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.table {
+  width: 100%;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.table-header {
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5bb;
+}
+
+div.table-section {
+  height: 500px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  min-width: 1200px;
+  border-collapse: collapse;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+th,
+td {
+  border-bottom: 1px solid #dddddd3d;
+  outline: none;
+  padding: 10px 20px;
+  word-break: break-all;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--gray);
+}
+
+tbody tr td:nth-child(1),
+thead tr th:nth-child(1),
+tbody tr td:nth-child(7),
+thead tr th:nth-child(7) {
+  width: 10%;
+}
+
+tbody tr td:nth-child(8),
+thead tr th:nth-child(8){
+  width: 18%;
+}
+
+.search-box label {
+  position: absolute;
+  top: -30px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dadada;
+}

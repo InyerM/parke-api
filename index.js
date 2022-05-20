@@ -10,6 +10,7 @@ const users = require('./src/routes/users')
 const prices = require('./src/routes/prices')
 const logs = require('./src/routes/logs')
 const vehicles = require('./src/routes/vehicles')
+const places = require('./src/routes/places')
 
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
@@ -27,6 +28,7 @@ app.use(users)
 app.use(prices)
 app.use(logs)
 app.use(vehicles)
+app.use(places)
 
 const PORT = process.env.PORT || 4111;
 app.listen(PORT, console.log("Server running at port : " + PORT))

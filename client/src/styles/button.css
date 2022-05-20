@@ -1,0 +1,20 @@
+.icon-text-button {
+  background-color: var(--primary-color)!important;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  padding: 0 5px;
+  list-style: none;
+  text-align: center;
+}
+
+.icon-text-button:hover{
+  background-color: var(--secundary-color)!important;
+}
+
+.icon-text-button p, .icon-button i {
+  padding: 0 5px;
+  line-height: 15px;
+  margin: 0;
+}

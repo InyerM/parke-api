@@ -14,6 +14,7 @@ module.exports.post = (req, res) => {
         plate: req.body.plate,
         vehicle_type: req.body.vehicle_type,
     })
+    
     vehicle.save((error) => {
         if(error) return res.status(500).json({
             message: "Error posting vehicles"

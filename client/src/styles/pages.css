@@ -1,0 +1,77 @@
+.content main{
+  margin: 20px 40px 20px 20px;
+  color: var(--text-black-color);
+}
+
+.page-section{
+  background-color: var(--sidebar-color);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  margin: 50px 40px 20px 40px;
+}
+
+.tool-bar {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.tool-bar li{ 
+  list-style: none;
+  text-align: start;
+  margin-top: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tool-bar li:hover{
+  font-weight: 500;
+}
+
+.left-user-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-user-section{
+  border-radius: 5px;
+  border: 1px solid var(--gray);
+  padding: 25px;
+}
+
+.right-user-section > p, .right-user-section .form > p{
+  color: var(--text-color);
+}
+
+.user-picture {
+  font-size: 150px;
+  background-color: var(--gray);
+  text-align: center;
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+}
+
+.user-info{
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.user-info h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.user-info h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+

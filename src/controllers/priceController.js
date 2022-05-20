@@ -14,6 +14,7 @@ module.exports.post = (req, res) => {
         vehicle_type : req.body.vehicle_type,
         rate : req.body.rate
     })
+    
     price.save((error) => {
         if(error) return res.status(500).json({
             message: "Error posting prices"

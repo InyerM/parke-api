@@ -1,0 +1,24 @@
+
+.item{
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--gray);
+  background-color: #f6f6f8;
+  padding: 4px 15px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.item object{
+  width: 20px;
+  margin-top: 4px;
+}
+
+.item p{
+  margin: 0 0 0 10px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+}
